@@ -4,7 +4,7 @@ import "./App.css";
 export default function BeamLoaderApp() {
   // Apparatus span: Fixed 80 cm scale
   const L = 80;
-  const g = 9.81;
+  const g = 9.80;
 
   // Active laboratory tuning parameters
   const [m1, setM1] = useState(1.5); // kg
